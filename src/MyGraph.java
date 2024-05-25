@@ -9,10 +9,7 @@ public class MyGraph<V> extends WeightedGraph<V> {
         super();
     }
 
-    public void addEdge(V src, V dest, Double weight) {
-        if (weight == null) {
-            weight = DEFAULT_WEIGHT;
-        }
-        super.addEdge(src, dest, weight);
+    public void addEdge(V src, V dest) {
+        super.addEdge(src, dest, 0.0);
     }
 }

@@ -26,13 +26,13 @@ public class Main {
     }
 
     public static void fillWithoutWeights(MyGraph<String> graph) {
-        graph.addEdge("Almaty", "Shymkent", 1.0);
-        graph.addEdge("Shymkent", "Astana", 2.0);
-        graph.addEdge("Astana", "Kostanay", 3.0);
-        graph.addEdge("Shymkent", "Kyzylorda", 4.0);
-        graph.addEdge("Almaty", "Astana",5.0);
-        graph.addEdge("Shymkent", "Atyrau",6.0);
-        graph.addEdge("Atyrau", "Astana",7.0);
+        graph.addEdge("Almaty", "Shymkent");
+        graph.addEdge("Shymkent", "Astana");
+        graph.addEdge("Astana", "Kostanay");
+        graph.addEdge("Shymkent", "Kyzylorda");
+        graph.addEdge("Almaty", "Astana");
+        graph.addEdge("Shymkent", "Atyrau");
+        graph.addEdge("Atyrau", "Astana");
     }
 
     public static void fillWithWeights(WeightedGraph<String> graph) {
